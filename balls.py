@@ -29,7 +29,7 @@ while running:
     ball.x += ball.x_speed
     ball.y += ball.y_speed
 
-    pygame.draw.circle(screen, ball.color, (ball.x,ball.y), ball.radius)
+    pygame.draw.circle(screen, ball.color, (int(ball.x),int(ball.y)), ball.radius)
 
   screen.unlock()
   pygame.display.update()
